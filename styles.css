@@ -8,6 +8,11 @@ body {
     margin-bottom: 35px;
 }
 
+div.container {
+    width: 80%;
+    margin: auto;
+}
+
 p {
     color: #000; 
 }
