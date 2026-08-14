@@ -4,38 +4,7 @@
   <head>
     <title>Chay Fisher</title>
 
-    <style>
-      body {
-        background-color: #fff; 
-        color: #000; 
-        font-family: verdana;
-        text-align: center;
-        font-size: 120%;
-        margin-top: 35px;
-        margin-bottom: 35px;
-      }
-      p {
-        color: #000; 
-      }
-      a.link {
-        color: #006;
-        text-decoration: none;
-      }
-      a.link:hover {
-        text-decoration: underline;
-      }
-      a.button-link {
-        background-color: #002;
-        color: white;
-        padding: 15px 25px;
-        border-radius: 10px;
-        text-decoration: none;
-      }
-      a.button-link:hover {
-        background-color: #006;
-      }
-    </style>
-
+    <link rel="stylesheet" href="styles.css">
     <script src="/main.js" defer></script>
   </head>
 
@@ -44,12 +13,18 @@
     <a href="https://x.com/ChayFisherMusic"><img src="/public/x.png" alt="X" width="42px" height="auto"></a>
     <a href="https://www.youtube.com/@ChayFisherMusic"><img src="/public/youtube.png" alt="YouTube" width="42px" height="auto"></a>
 
-    <h1 style="font-size:250%; background-color: #002; padding: 15px 25px; color:#fff"><ins>Chay Fisher</ins><br>Sound Engineer</h1>
+    <div class="title-bar">
+      <h1>
+        <ins>Chay Fisher</ins>
+        <br>
+        Sound Engineer
+      </h1>
+    </div>
 
     <img src="/public/SSL.jpg" alt="SSL" width="100%" height="100%"> 
     <p style="color: #aaa; font-size:75%"><i><strong>Picture of the ACM Birmingham SSL Studio</strong></i></p>
 
-    <h2 style="color:00f; font-size:200%;"><ins>About Me</ins></h2>
+    <h2><ins>About Me</ins></h2>
 
     <p>
       I am a sound engineer with experience in <b>recording</b>, <b>mixing</b> (incl. <b>Atmos mixing</b>) and <b>mastering</b>. <br> 
@@ -58,7 +33,7 @@
       I also have experience in acoustic-based genres, orchestral music and electronic music. <br> 
     </p> 
 
-    <h3 style="font-size:120%;"> <ins>about me cont.</ins> </h3>
+    <h4><ins>about me cont.</ins></h4>
 
     <p>
       I’m based in Worcestershire (west midlands) but am available for online work. <br>
@@ -71,7 +46,7 @@
       as well as having a chance to work alongside some of the bigger names in the industries and communities I aim to become a part of.
     </p>
 
-    <h4 style="font-size:160%;"> <ins>Who I've worked with</ins> </h4>
+    <h3><ins>Who I've worked with</ins></h3>
 
     <p>
       although a lot of my work is currently unreleased, I have worked with a variety of bands, <br>
@@ -85,14 +60,16 @@
       <source src="/public/ronkDemo.mp3" type="audio/mp3">
       There should be audio here...
     </audio>
+
     <br>
     <br>
 
     <a class="button-link" href="https://www.instagram.com/we.are.ronk/">rOnK</a>
 
     <br>
+    <br>
 
-    <p style="color: #aaa; font-size:90%">
+    <p class="about-info">
       composition/performance - rOnK<br>
       mixing - Chay Fisher<br>
       mastering - Chay Fisher, Ryan John
@@ -106,14 +83,16 @@
       <source src="/public/fireflyDemo.mp3" type="audio/mp3">
       There should be audio here...
     </audio>
+
     <br>
     <br>
 
     <a class="button-link" href="https://linktr.ee/fireflyofficial">Firefly Official</a>
 
     <br>
+    <br>
 
-    <p style="color: #aaa; font-size:90%">
+    <p class="about-info">
       composition - Firefly/Ben Partridge<br>
       mixing - Chay Fisher
     </p>
@@ -125,14 +104,16 @@
       <source src="/public/valerianDemo.mp3" type="audio/mp3">
       There should be audio here...
     </audio>
+
     <br>
     <br>
 
     <a class="button-link" href="https://www.instagram.com/valerianband_/">Valerian</a>
 
     <br>
+    <br>
 
-    <p style="color: #aaa; font-size:90%">
+    <p class="about-info">
       composition/performance - Valerian<br>
       mixing - Chay Fisher
     </p>
@@ -142,23 +123,23 @@
     <img src="/public/Dreamboat.jpg" alt="Dreamboat Emperor" width="400" height="400">
 
     <br>
-    <p style="color: #aaa; font-size:90%">
+    <p class="about-info">
       no audio currently available
     </p>
     <br>
-
 
     <a class="button-link" href="https://linktr.ee/dreamboatemperor">Dreamboat Emperor</a>
 
     <br>
     <br>
 
-    <p style="color: #aaa; font-size:90%">
+    <p class="about-info">
       composition/performance - Dreamboat Emperor<br>
       original mix - Dreamboat Emperor<br>
       Atmos mix - Chay Fisher
     </p>
 
+    <br>
 
     <img src="/public/RyanJohn.jpg" alt="Ryan John" width="400" height="400">
 
@@ -170,7 +151,7 @@
     <br>
     <br>
 
-    <p style="color: #aaa; font-size:90%">
+    <p class="about-info">
       Nothing to show (for now)
     </p>
 
@@ -186,13 +167,13 @@
     <br>
     <br>
 
-    <p style="color: #aaa; font-size:90%">
+    <p class="about-info">
       Nothing to show (for now)
     </p>
 
     <br>
 
-    <h5 style="font-size:160%;"> <ins>Recent Projects</ins> </h5>
+    <h3><ins>Recent Projects</ins></h3>
 
     <p>
       Some of my recent projects include producing an EP with the band rOnK, the Scarlett Break mixes and helping with some recording sessions at Grosvenor Road Studios. <br>
